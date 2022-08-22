@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "도배GO",
+    "slug": "PaperingGO",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#87C1FC"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile" : "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon2.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.sevenfintech.papering_go",
+      "versionCode" : 1
+    },
+    "web": {
+      "favicon": "./assets/favicon2.png"
+    }
+  }
+}
